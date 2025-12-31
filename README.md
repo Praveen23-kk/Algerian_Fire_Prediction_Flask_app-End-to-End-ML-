@@ -20,7 +20,9 @@ The application utilizes a **Ridge Regression** model trained on the *Algerian F
 ---
 
 ## 📂 About the Dataset
-[cite_start]The model is trained on the **Algerian Forest Fires Dataset**[cite: 2], which includes data from two regions in Algeria: the **Bejaia** region and the **Sidi Bel-Abbes** region.
+The model is trained on the **Algerian Forest Fires Dataset**, which includes data from two regions in Algeria: the **Bejaia** region and the **Sidi Bel-Abbes** region.
+
+Dataset link: https://www.kaggle.com/datasets/nitinchoudhary012/algerian-forest-fires-dataset
 
 ### Features Used for Prediction
 The model requires **9 input features** to generate a prediction, as defined in the training pipeline:
