@@ -98,27 +98,15 @@ Open your browser and navigate to:
  http://127.0.0.1:5000/
 ```
 
-🧠 Model Performance
-The model uses Ridge Regression to handle multicollinearity between the fire weather indices (FFMC, DMC, DC, ISI).
+## 🧠 Model Performance
+The model uses **Ridge Regression** to handle multicollinearity between the fire weather indices (FFMC, DMC, DC, ISI).
 
-Preprocessing: Features are standardized using a StandardScaler before being fed into the model.
+**Preprocessing:** Features are standardized using a `StandardScaler` before being fed into the model
+**Input Validation:** The app includes error handling to ensure exactly **9 features** are provided before attempting a prediction
 
-Input Validation: The app includes error handling to ensure exactly 9 features are provided before attempting a prediction.
+---
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please fork the repository and create a pull request for any feature updates or bug fixes.
-
-Fork the Project
-
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-
-Push to the Branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
-
-
-📜 License
-Distributed under the MIT License. See LICENSE for more information.
+Contributions are welcome! Please fork the repository and create a pull request for any feature updates or bug fixes.
 
