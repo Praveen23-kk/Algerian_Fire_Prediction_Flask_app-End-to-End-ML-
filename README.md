@@ -13,7 +13,7 @@ The application utilizes a **Ridge Regression** model trained on the *Algerian F
 ---
 
 ## 📸 Sample Result
-![App Screenshot](screenshot.png)
+![App Screenshot](result_image/Result.png)
 
 *Above: A preview of the web interface where users input weather data to receive an FWI prediction.*
 
