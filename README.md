@@ -48,7 +48,7 @@ The model requires **9 input features** to generate a prediction, as defined in 
 * **Frontend:** HTML/CSS (rendered via Flask templates)
 * **Backend:** Python, Flask
 * **Machine Learning:** Scikit-Learn (Ridge Regression), NumPy, Pandas
-* [cite_start]**Deployment:** Gunicorn (ready for production) [cite: 1]
+  
 
 ### Project Structure
 ```bash
@@ -61,3 +61,64 @@ The model requires **9 input features** to generate a prediction, as defined in 
 ├── app.py               # Main Flask application
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation
+
+```
+---
+🚀 Installation & Usage
+Follow these steps to run the application locally.
+
+1. Clone the Repository
+```
+git clone [https://github.com/your-username/algerian-forest-fire-predictor.git](https://github.com/your-username/algerian-forest-fire-predictor.git)
+cd algerian-forest-fire-predictor
+```
+2. Create a Virtual Environment (Optional but Recommended)
+```
+# For Windows
+python -m venv venv
+venv\Scripts\activate
+
+# For Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+3. Install Dependencies
+Install the required libraries listed in requirements.txt:
+```
+pip install -r requirements.txt
+```
+4. Run the Application
+Start the Flask server:
+```
+python app.py
+```
+5. Access the App
+Open your browser and navigate to:
+```
+ http://127.0.0.1:5000/
+```
+
+🧠 Model Performance
+The model uses Ridge Regression to handle multicollinearity between the fire weather indices (FFMC, DMC, DC, ISI).
+
+Preprocessing: Features are standardized using a StandardScaler before being fed into the model.
+
+Input Validation: The app includes error handling to ensure exactly 9 features are provided before attempting a prediction.
+
+🤝 Contributing
+Contributions are welcome! Please fork the repository and create a pull request for any feature updates or bug fixes.
+
+Fork the Project
+
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+
+Push to the Branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+
+📜 License
+Distributed under the MIT License. See LICENSE for more information.
+
